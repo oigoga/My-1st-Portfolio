@@ -25,7 +25,8 @@ module.exports = {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
       Rubik_dirt: [ 'Rubik Dirt', 'cursive'],
-      Lato: ['Lato', 'sans-serif']
+      Lato: ['Lato', 'sans-serif'],
+      Ubuntu: ['Ubuntu', 'sans-serif']
     },
     extend: {
 
