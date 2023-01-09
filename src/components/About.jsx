@@ -8,6 +8,7 @@ const About = () => {
         <h4 className="text-4xl border-b-2 text-white md:text-6xl border-b-orange py-3">
           About me
         </h4>
+        <div className="bg-navyy rounded-md shadow-sm shadow-off-white my-4 p-3 text-white">
         <p className="flex w-full my-3">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
           tenetur dicta eos similique itaque dolor ea est possimus odit,
@@ -21,13 +22,15 @@ const About = () => {
           voluptatibus velit enim optio id, voluptas fugit harum.
         
         </p>
+        </div>
+        
         <div className="font-Ubuntu w-full">
         <h4 className="text-4xl border-b-2 text-white md:text-6xl border-b-orange py-3">
          I Work With:
         </h4>
         <ul className="my-3 text-navy flex md:flex-row flex-col">
         <li className="flex  justify-center md ">
-              <div className="bg-off-white shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 my-3 ml-0 mr-3 justify-center">
+              <div className="bg-off-white shadow-md shadow-gray w-16 text-xs rounded-md flex items-center flex-col h-16 my-3 ml-0 mr-3 justify-center">
               <div className=" my-3 w-5 rounded-md ">
                <DiJsBadge className="h-full w-full rounded-sm"/>
               </div>
@@ -35,7 +38,7 @@ const About = () => {
                 <span>Javascript</span>
               </div>
               </div>
-              <div className="bg-off-white shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 m-3 justify-center">
+              <div className="bg-off-white shadow-md shadow-gray w-16 text-xs rounded-md flex items-center flex-col h-16 m-3 justify-center">
               <div className=" my-3 w-5 rounded-md ">
                <DiCss3 className="h-full w-full rounded-sm"/>
               </div>
@@ -45,7 +48,7 @@ const About = () => {
               </div>
             </li>
             <li className="flex  justify-center md ">
-              <div className="bg-off-white shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 m-3  justify-center">
+              <div className="bg-off-white shadow-md shadow-gray w-16 text-xs rounded-md flex items-center flex-col h-16 m-3  justify-center">
               <div className=" my-3 w-5 rounded-md ">
                <DiHtml5 className="h-full w-full rounded-sm"/>
               </div>
@@ -53,7 +56,7 @@ const About = () => {
                 <span>HTML5</span>
               </div>
               </div>
-              <div className="bg-off-white shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 m-3 justify-center">
+              <div className="bg-off-white shadow-md shadow-gray w-16 text-xs rounded-md flex items-center flex-col h-16 m-3 justify-center">
               <div className=" my-3 w-5 rounded-md ">
                <DiReact className="h-full w-full rounded-sm"/>
               </div>
@@ -63,7 +66,7 @@ const About = () => {
               </div>
             </li>
             <li className="flex  justify-center md ">
-              <div className="bg-off-white shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 m-3  justify-center">
+              <div className="bg-off-white shadow-md shadow-gray w-16 text-xs rounded-md flex items-center flex-col h-16 m-3  justify-center">
               <div className=" my-3 w-5 rounded-md ">
                <DiGit className="h-full w-full rounded-sm"/>
               </div>
@@ -71,7 +74,7 @@ const About = () => {
                 <span>Git</span>
               </div>
               </div>
-              <div className="bg-off-white shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 m-3 justify-center">
+              <div className="bg-off-white shadow-md shadow-gray w-16 text-xs rounded-md flex items-center flex-col h-16 m-3 justify-center">
               <div className=" my-3 w-5 rounded-md ">
                <DiGithubBadge className="h-full w-full rounded-sm"/>
               </div>

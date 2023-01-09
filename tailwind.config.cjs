@@ -20,7 +20,7 @@ module.exports = {
       'gray-dark': '#273444',
       'gray': '#a7a9be',
       'gray-light': '#d3dce6',
-      'navyy': '#243763',
+      'navyy': '#0f0e20',
       'navyyy': '#251749',
       'navyyyy': '#495579',
       'off-white': '#FFFBEB'
