@@ -6,23 +6,25 @@ import { navLinks } from "../constants";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <div>
+    <div className="sticky top-0 bg-navy">
       <nav
-        className="w-full flex justify-between   text-white
+        className="w-full flex justify-between text-white 
        "
       >
         <div className="w-full flex justify-between     mx-5 py-2">
-          <h3 className="font-Rubik_dirt  text-base md:text-4xl xxl:text-5xl">
+          <h3 className="font-Rubik_dirt  text-base md:text-4xl xxl:text-5xl mt-2">
             <span className="text-orange">G</span>OGA
           </h3>
           <div className="flex   text-2xl font-Ubuntu">
-            <button className="flex z-10  py-2">
-              <p className={`${toggle?"hidden":"inline"} text-base  md:text-2xl xxl:text4-xl mx-2 hover:underline`}>MENU</p>
+            <button className="flex z-10  py-2"
+            onClick={() => setToggle((prev) => !prev)}
+            >
+              <p className={`${toggle?"hidden":"inline"} text-base   md:text-2xl xxl:text4-xl mx-2 hover:underline`}>MENU</p>
               <img
                 src={toggle ? close : menu}
                 alt="menu"
-                className="w-[20px] h-[30px] md:w-[30px] md:h-[30px] xxl:h-[40px] xxl:w-[40px] object-contain hover:scale-110  "
-                onClick={() => setToggle((prev) => !prev)}
+                className="w-[20px] h-[30px] md:w-[30px] md:h-[30px] xxl:h-[40px] pb-1.5 xxl:w-[40px] object-contain hover:scale-110   "
+                
               />
             </button>
 
@@ -33,7 +35,8 @@ const Navbar = () => {
                     <div>
                       {navLinks.map((nav, index) => (
                         <li key={nav.id} className="text-center my-4">
-                          <a href="#"> {nav.title}</a>
+                          <a href="id"
+                          onClick={() => setToggle((prev) => !prev)}> {nav.title}</a>
                           <hr
                         style={{
                           background: "gray-light",
@@ -65,3 +68,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
