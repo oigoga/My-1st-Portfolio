@@ -1,4 +1,5 @@
 import React from "react";
+import { DiGithubBadge, DiJsBadge, DiReact, DiCss3, DiHtml5, DiGit } from "react-icons/di";
 
 const About = () => {
   return (
@@ -20,12 +21,30 @@ const About = () => {
           voluptatibus velit enim optio id, voluptas fugit harum.
         
         </p>
+        <div>
         <h4 className="text-4xl border-b-2 text-white md:text-6xl border-b-orange py-3">
          SKILLS
         </h4>
+        <ul className="my-3 text-white">
+        <li className="flex flex-col item">
+              <div className="bg-navy shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 justify-center">
+              <div className="  ">
+               <DiJsBadge className="h-full"/>
+              </div>
+              <div className="">
+                <span>Javascript</span>
+              </div>
+              </div>
+            </li>
+        </ul>
+        </div>
+        
       </div>
     </section>
   );
 };
 
 export default About;
+
+
+
