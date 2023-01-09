@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="font-Ubuntu p-6">
       <div className=" md:w-2/3 flex  flex-col md:mt-10 pb-20 xl:ml-20 md:pt-8 pt-24 lg:pl-10 p-6">
         <h4 className="text-4xl border-b-2 text-white md:text-6xl border-b-orange py-3">
-          ABOUT ME
+          About me
         </h4>
         <p className="flex w-full my-3">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
@@ -21,18 +21,62 @@ const About = () => {
           voluptatibus velit enim optio id, voluptas fugit harum.
         
         </p>
-        <div>
+        <div className="font-Ubuntu w-full">
         <h4 className="text-4xl border-b-2 text-white md:text-6xl border-b-orange py-3">
-         SKILLS
+         I Work With:
         </h4>
-        <ul className="my-3 text-white">
-        <li className="flex flex-col item">
-              <div className="bg-navy shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 justify-center">
-              <div className="  ">
-               <DiJsBadge className="h-full"/>
+        <ul className="my-3 text-navy flex md:flex-row flex-col">
+        <li className="flex  justify-center md ">
+              <div className="bg-off-white shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 my-3 ml-0 mr-3 justify-center">
+              <div className=" my-3 w-5 rounded-md ">
+               <DiJsBadge className="h-full w-full rounded-sm"/>
               </div>
-              <div className="">
+              <div className=" bg-gray-light w-full mb-0 rounded-md h-5 p-0.5 font-bold flex justify-center">
                 <span>Javascript</span>
+              </div>
+              </div>
+              <div className="bg-off-white shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 m-3 justify-center">
+              <div className=" my-3 w-5 rounded-md ">
+               <DiCss3 className="h-full w-full rounded-sm"/>
+              </div>
+              <div className=" bg-gray-light w-full mb-0 rounded-md h-5 p-0.5 font-bold flex justify-center ">
+                <span>CSS3</span>
+              </div>
+              </div>
+            </li>
+            <li className="flex  justify-center md ">
+              <div className="bg-off-white shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 m-3  justify-center">
+              <div className=" my-3 w-5 rounded-md ">
+               <DiHtml5 className="h-full w-full rounded-sm"/>
+              </div>
+              <div className=" bg-gray-light w-full mb-0 rounded-md h-5 p-0.5 font-bold flex justify-center ">
+                <span>HTML5</span>
+              </div>
+              </div>
+              <div className="bg-off-white shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 m-3 justify-center">
+              <div className=" my-3 w-5 rounded-md ">
+               <DiReact className="h-full w-full rounded-sm"/>
+              </div>
+              <div className=" bg-gray-light w-full mb-0 rounded-md h-5 p-0.5 font-bold flex justify-center ">
+                <span>React</span>
+              </div>
+              </div>
+            </li>
+            <li className="flex  justify-center md ">
+              <div className="bg-off-white shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 m-3  justify-center">
+              <div className=" my-3 w-5 rounded-md ">
+               <DiGit className="h-full w-full rounded-sm"/>
+              </div>
+              <div className=" bg-gray-light w-full mb-0 rounded-md h-5 p-0.5 font-bold flex justify-center ">
+                <span>Git</span>
+              </div>
+              </div>
+              <div className="bg-off-white shadow-md w-16 text-xs rounded-md flex items-center flex-col h-16 m-3 justify-center">
+              <div className=" my-3 w-5 rounded-md ">
+               <DiGithubBadge className="h-full w-full rounded-sm"/>
+              </div>
+              <div className=" bg-gray-light w-full mb-0 rounded-md h-5 p-0.5 font-bold flex justify-center  ">
+                <span>GitHub</span>
               </div>
               </div>
             </li>
