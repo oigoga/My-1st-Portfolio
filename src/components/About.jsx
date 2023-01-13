@@ -4,7 +4,7 @@ import { DiGithubBadge, DiJsBadge, DiReact, DiCss3, DiHtml5, DiGit } from "react
 const About = () => {
   return (
     <section id="about" className="font-Ubuntu p-6">
-      <div className=" md:w-2/3 flex  flex-col md:mt-10 pb-20 xl:ml-20 md:pt-8 pt-24 lg:pl-10 p-6">
+      <div className=" md:w-2/3 flex  flex-col md:mt-10 md:pb-20 xl:ml-10 md:pt-8 pt-24 lg:pl-10 p-6">
         <h4 className="text-4xl border-b-2 text-white md:text-6xl border-b-orange py-3">
           About me
         </h4>
@@ -26,7 +26,7 @@ const About = () => {
         
         <div className="font-Ubuntu w-full">
         <h4 className="text-4xl border-b-2 text-white md:text-6xl border-b-orange py-3">
-         I Work With:
+         I Work With
         </h4>
         <ul className="my-3 text-navy flex md:flex-row flex-col justify-center ">
         <li className="flex  justify-center md ">
