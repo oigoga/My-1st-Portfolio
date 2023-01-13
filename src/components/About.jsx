@@ -28,7 +28,7 @@ const About = () => {
         <h4 className="text-4xl border-b-2 text-white md:text-6xl border-b-orange py-3">
          I Work With
         </h4>
-        <ul className="my-3 text-navy flex md:flex-row flex-col justify-center ">
+        <ul className="my-3 text-navy flex md:flex-row flex-col justify-center  ">
         <li className="flex  justify-center md ">
               <div className="bg-off-white shadow-md shadow-gray w-16 text-xs rounded-md flex items-center flex-col h-16 md:m-3 m-3.5 justify-center">
               <div className=" my-3 w-5 rounded-md ">

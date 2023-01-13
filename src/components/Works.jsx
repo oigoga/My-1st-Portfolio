@@ -1,6 +1,15 @@
 import React from "react";
 import { Budgety, Ecommerce, Dicegame, Marriagecoaching } from "../assets";
-import { AiOutlineRight } from "react-icons/ai";
+import { AiOutlineRight, AiTwotoneApi } from "react-icons/ai";
+import {
+  DiGithubBadge,
+  DiJsBadge,
+  DiReact,
+  DiCss3,
+  DiHtml5,
+  DiGit,
+} from "react-icons/di";
+import { SiTailwindcss } from "react-icons/si";
 
 const Works = () => {
   return (
@@ -11,10 +20,10 @@ const Works = () => {
             My Portfolio
           </h4>
 
-          <div className="my-6 flex flex-col px-10 w-full text-white ">
-            <div className="flex  flex-col md:flex-row my-3 ">
-              <div className="w-full md:w-2/5 bg-navyy shadow-sm shadow-off-white m-2 rounded-lg  h-88 mr-5 ">
-                <div className="border-l-2 border-orange m-2 w-full">
+          <div className="my-6 flex flex-col lg:px-10 w-full text-white ">
+            <div className="flex  flex-col items-center lg:flex-row my-3 ">
+              <div className="w-full lg:w-2/5  bg-navyy    shadow-sm shadow-off-white my-2 mx-4 rounded-lg  h-88 ">
+                <div className="border-l-2 h-1/4 border-orange m-2 w-full">
                   <h4 className="text-xl p-1 font-extrabold">Dice game app</h4>
                   <p className="text-gray p-1">
                     Interesting Dice game app built with JavaScript
@@ -25,18 +34,18 @@ const Works = () => {
                   alt="Dicegame web app"
                   className="w-full h-1/2"
                 />
-                <div className="flex justify-between mt-3">
+                <div className="flex  justify-between mt-1">
                   <div className=" ">
-                    <ul className="flex p-3">
-                      <li className="mx-1 bg-orange rounded-md w-20 text-center">
-                        HTML5
+                    <ul className="flex md:flex-row flex-col p-2">
+                      <li className="flex justify-center  mx-1 my-1 text-sm p-0.5 w-6 bg-orange  rounded-md  text-center">
+                        <DiHtml5 />
                       </li>
-                      <li className="mx-1 bg-orange rounded-md w-20 text-center">
-                        CSS3
+                      <li className="flex justify-center mx-1 my-1 p-0.5 w-6 bg-orange  rounded-md  text-center">
+                        <DiCss3 />
                       </li>
 
-                      <li className="mx-1 bg-orange rounded-md w-20 text-center">
-                        JS
+                      <li className="flex justify-center mx-1 my-1 p-0.5 w-6 lg:w-10 bg-orange text-xs rounded-md  text-center">
+                        <DiJsBadge />
                       </li>
                     </ul>
                   </div>
@@ -59,8 +68,8 @@ const Works = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-2/5 bg-navyy shadow-sm shadow-off-white m-2 rounded-lg  h-88 mr-5 ">
-                <div className="border-l-2 border-orange m-2 w-full">
+              <div className="w-full lg:w-2/5 bg-navyy shadow-sm shadow-off-white my-2 mx-4 rounded-lg  h-88  ">
+                <div className="border-l-2 h-1/4 border-orange m-2 w-full">
                   <h4 className="text-xl p-1 font-extrabold">Budgety</h4>
                   <p className="text-gray p-1">Budget Tracking Application</p>
                 </div>
@@ -71,20 +80,20 @@ const Works = () => {
                 />
                 <div className="flex justify-between mt-3">
                   <div className=" ">
-                    <ul className="flex p-3">
-                      <li className="mx-1 bg-orange rounded-md w-20 text-center">
-                        HTML5
+                    <ul className="flex md:flex-row flex-col p-2">
+                      <li className="flex justify-center  mx-1 my-1 text-sm p-0.5 w-6 bg-orange  rounded-md  text-center">
+                        <DiHtml5 />
                       </li>
-                      <li className="mx-1 bg-orange rounded-md w-20 text-center">
-                        CSS3
+                      <li className="flex justify-center mx-1 my-1 p-0.5 w-6 bg-orange  rounded-md  text-center">
+                        <DiCss3 />
                       </li>
 
-                      <li className="mx-1 bg-orange rounded-md w-20 text-center">
-                        JS
+                      <li className="flex justify-center mx-1 my-1 p-0.5 w-6 lg:w-10 bg-orange text-xs rounded-md  text-center">
+                        <DiJsBadge />
                       </li>
                     </ul>
                   </div>
-                  <div className="flex flex-col p-2">
+                  <div className="flex flex-col  p-2">
                     <a
                       href="https://github.com/oigoga/Budgety"
                       className="flex bg-orange px-1 justify-between rounded-md text-center w-28 my-1"
@@ -104,9 +113,9 @@ const Works = () => {
                 </div>
               </div>
             </div>
-            <div className="flex  flex-col md:flex-row my-3">
-              <div className="w-full md:w-2/5 bg-navyy shadow-sm shadow-off-white m-2  rounded-lg  h-88 mr-5 ">
-                <div className="border-l-2 border-orange m-2 w-full">
+            <div className="flex  flex-col items-center lg:flex-row my-3">
+              <div className="w-full lg:w-2/5 bg-navyy shadow-sm shadow-off-white my-2 mx-4  rounded-lg  h-88  ">
+                <div className="border-l-2 h-1/4 border-orange m-2 w-full">
                   <h4 className="text-xl p-1 font-extrabold">
                     Mock Ecommerce Website
                   </h4>
@@ -121,19 +130,16 @@ const Works = () => {
                 />
                 <div className="flex justify-between mt-3">
                   <div className=" ">
-                    <ul className="flex p-3">
-                      <li className="mx-1 bg-orange rounded-md w-20 text-center">
-                        HTML5
+                    <ul className="flex md:flex-row flex-col p-2">
+                      <li className="flex justify-center  mx-1 my-1 text-sm p-0.5 w-6 bg-orange  rounded-md  text-center">
+                        <AiTwotoneApi />
                       </li>
-                      <li className="mx-1 bg-orange rounded-md w-20 text-center">
-                        CSS3
+                      <li className="flex justify-center mx-1 my-1 p-0.5 w-6 bg-orange  rounded-md  text-center">
+                        <DiCss3 />
                       </li>
 
-                      <li className="mx-1 bg-orange rounded-md w-20 text-center">
-                        JS
-                      </li>
-                      <li className="mx-1 bg-orange rounded-md w-20 text-center">
-                        API
+                      <li className="flex justify-center mx-1 my-1 p-0.5 w-6 lg:w-10 bg-orange text-xs rounded-md  text-center">
+                        <DiJsBadge />
                       </li>
                     </ul>
                   </div>
@@ -156,8 +162,8 @@ const Works = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-2/5 bg-navyy shadow-sm shadow-off-white m-2 rounded-lg  h-88 mr-5 ">
-                <div className="border-l-2 border-orange m-2 w-full">
+              <div className="w-full lg:w-2/5 bg-navyy shadow-sm shadow-off-white my-2 mx-4 rounded-lg  h-88  ">
+                <div className="border-l-2 h-1/4 border-orange m-2 w-full">
                   <h4 className="text-xl p-1 font-extrabold">
                     Marriage Coaching Webiste
                   </h4>
@@ -170,18 +176,19 @@ const Works = () => {
                   alt="Dicegame web app"
                   className="w-full h-1/2"
                 />
-                <div className="flex justify-between mt-3">
+                <div className="flex justify-between lg:mt-3">
                   <div className=" ">
-                    <ul className="flex p-3">
-                      <li className="mx-1 bg-orange rounded-md w-20 text-center">
-                        HTML5
+                    <ul className="flex md:flex-row flex-col p-2">
+                      <li className="flex justify-center  mx-1 my-1 text-sm p-0.5 w-6 bg-orange  rounded-md  text-center">
+                        <DiHtml5 />
                       </li>
-                      <li className="mx-1 bg-orange rounded-md w-20 text-center">
-                        TAILWIND
+
+                      <li className="flex justify-center mx-1 my-1 p-0.5 w-6 lg:w-10 bg-orange text-xs rounded-md  text-center">
+                        <SiTailwindcss />
                       </li>
                     </ul>
                   </div>
-                  <div className="flex flex-col p-2">
+                  <div className="flex flex-col p-3">
                     <a
                       href="https://github.com/oigoga/Marriage-Coaching-Website"
                       className="flex bg-orange px-1 justify-between rounded-md text-center w-28 my-1"

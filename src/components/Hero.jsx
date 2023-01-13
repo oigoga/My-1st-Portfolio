@@ -3,7 +3,7 @@ import { headshot, resume } from "../assets";
 
 const Hero = () => {
   return (
-    <section className=" flex flex-col-reverse md:flex-row font-Ubuntu  md:justify-between w-full  items-center px-6 ">
+    <section className=" flex flex-col-reverse md:flex-row font-Ubuntu  md:justify-between w-full  items-center px-6 xl:mr-10">
       <div className="flex  flex-col  md:pb-20 xl:ml-10 md:pt-16 pt-24 lg:pl-10 p-6 ">
         <h1 className="text-white text-6xl hidden md:flex ">
           H<span className="text-orange">I.</span>{" "}

@@ -30,7 +30,8 @@ module.exports = {
       serif: ['Merriweather', 'serif'],
       Rubik_dirt: [ 'Rubik Dirt', 'cursive'],
       Lato: ['Lato', 'sans-serif'],
-      Ubuntu: ['Ubuntu', 'sans-serif']
+      Ubuntu: ['Ubuntu', 'sans-serif'],
+      Pacifico: ['Pacifico', 'cursive']
     },
     extend: {
       height: theme => ({

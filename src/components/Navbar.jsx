@@ -6,7 +6,7 @@ import { navLinks } from "../constants";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="sticky top-0 bg-navy">
+    <div className="sticky z-100 top-0 bg-navy">
       <nav
         className="w-full flex justify-between text-white 
        "
