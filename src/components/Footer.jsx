@@ -3,8 +3,10 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="font-Ubuntu">
-      <section className="md:mt-6  xl:ml-10 md:pt-8 pt-16 lg:pl-10 px-6 text-white">
-        <div className="w-3/4 h-0.5  bg-orange"></div>
+      <section className="md:mt-6  xl:ml-10 md:pt-8 pt-16 lg:pl-10 px-6 text-white ">
+      <div className="w-3/4 h-0.5 mx-5 bg-orange"></div>
+      <div className="flex flex-col justify-center items-center px-6">
+       
         <div className="my-3">
           <p className="py-2">
             Do you have a question for me, want to collaborate with or employ
@@ -21,7 +23,7 @@ const Footer = () => {
             &#40;Also Remote&#41;
           </p>
         </div>
-        <div className="font-Pacifico text-lg flex justify-center my-2">
+        <div className="font-Pacifico text-lg flex text-center my-2">
           <p className="py-3">
             You don't stumble upon success or excellence. They are the natural
             results of consistency, discipline and hardwork.
@@ -33,6 +35,7 @@ const Footer = () => {
           Oigoga Aba &copy; 2023
           </p>
         </div>
+      </div>
       </section>
     </div>
   );
