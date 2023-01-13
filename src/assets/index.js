@@ -17,7 +17,8 @@ export {
     Budgety,
     Ecommerce,
     Dicegame,
-    Marriagecoaching
+    Marriagecoaching,
+    Minitodo
 }
 
 
