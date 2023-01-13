@@ -1,5 +1,5 @@
 import React from "react";
-import { Budgety, Ecommerce, Dicegame, Marriagecoaching } from "../assets";
+import { Budgety, Ecommerce, Minitodo, Marriagecoaching } from "../assets";
 import { AiOutlineRight, AiTwotoneApi } from "react-icons/ai";
 import {
   DiGithubBadge,
@@ -24,14 +24,14 @@ const Works = () => {
             <div className="flex  flex-col items-center lg:flex-row my-3 ">
               <div className="w-full lg:w-2/5  bg-navyy    shadow-sm shadow-off-white my-2 mx-4 rounded-lg  h-88 ">
                 <div className="border-l-2 h-1/4 border-orange m-2 w-full">
-                  <h4 className="text-xl p-1 font-extrabold">Dice game app</h4>
+                  <h4 className="text-xl p-1 font-extrabold">Mini ToDo app</h4>
                   <p className="text-gray p-1">
-                    Interesting Dice game app built with JavaScript
+                     A mini todo app from recording tasks
                   </p>
                 </div>
                 <img
-                  src={Dicegame}
-                  alt="Dicegame web app"
+                  src={Minitodo}
+                  alt="A Mini To Do  web app"
                   className="w-full h-1/2"
                 />
                 <div className="flex  justify-between mt-1">
@@ -51,14 +51,14 @@ const Works = () => {
                   </div>
                   <div className="flex flex-col p-2">
                     <a
-                      href="https://github.com/oigoga/Dice-Game"
+                      href="https://github.com/oigoga/Mini-Todo"
                       className="flex bg-orange px-1 justify-between rounded-md text-center w-28 my-1"
                     >
                       View Code
                       <AiOutlineRight className="self-center" />
                     </a>
                     <a
-                      href="https://oigoga.github.io/Dice-Game/"
+                      href="https://minitodooigoga.netlify.app/"
                       className="flex bg-orange px-1 justify-between rounded-md  w-28 my-1"
                     >
                       {" "}
