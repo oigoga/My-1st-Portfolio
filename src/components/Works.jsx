@@ -26,7 +26,7 @@ const Works = () => {
                 <div className="border-l-2 h-1/4 border-orange m-2 w-full">
                   <h4 className="text-xl p-1 font-extrabold">Mini ToDo app</h4>
                   <p className="text-gray p-1">
-                     A mini todo app from recording tasks
+                     A mini todo app for recording tasks
                   </p>
                 </div>
                 <img
