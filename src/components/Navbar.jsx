@@ -35,7 +35,7 @@ const Navbar = () => {
                     <div>
                       {navLinks.map((nav, index) => (
                         <li key={nav.id} className="text-center my-4">
-                          <a href="id"
+                          <a href={nav.id}
                           onClick={() => setToggle((prev) => !prev)}> {nav.title}</a>
                           <hr
                         style={{

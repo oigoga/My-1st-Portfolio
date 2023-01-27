@@ -4,7 +4,7 @@ import { DiGithubBadge } from "react-icons/di";
 
 const Contact = () => {
   return (
-    <div>
+    <div id='contact'>
       <div className="fixed flex bottom-0 w-0 z-70 justify-end flex-col left-5 ">
       <ul className="list-none -translate-x-(2.5) -translate-y-4">
         <li className="w-6 h-6 mb-2.5">

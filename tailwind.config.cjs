@@ -13,17 +13,9 @@ module.exports = {
       xxl: '1840px'
     },
     colors: {
-      'navy': '#0f0e17',
-      'pink': '#e53170',
-      'orange': '#ff8906',
-      'white': '#fffffe',
-      'gray-dark': '#273444',
-      'gray': '#a7a9be',
-      'gray-light': '#d3dce6',
-      'navyy': '#0f0e20',
-      'navyyy': '#251749',
-      'navyyyy': '#495579',
-      'off-white': '#FFFBEB'
+      'black': '#000000',
+      'teal': '#008080',
+      'bg-colour': '#f7f7f8'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],

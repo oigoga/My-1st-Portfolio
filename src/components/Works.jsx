@@ -13,7 +13,7 @@ import { SiTailwindcss } from "react-icons/si";
 
 const Works = () => {
   return (
-    <section className="font-Ubuntu p-6">
+    <section id="works" className="font-Ubuntu p-6">
       <div className="flex flex-col xl:ml-10 md:pt-8 pt-24 lg:px-10 p-6 w-full ">
         <div className="font-Ubuntu w-full">
           <h4 className="text-4xl border-b-2 w-5/6 border-orange  text-white md:text-6xl  py-3">
