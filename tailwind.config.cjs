@@ -13,9 +13,12 @@ module.exports = {
       xxl: '1840px'
     },
     colors: {
-      'black': '#000000',
-      'teal': '#008080',
-      'bg-colour': '#f7f7f8'
+      'orange': '#ff8906',
+      'navy' : '#0f0e17',
+      'white': '#fffffe',
+      'gray': '#a7a9be',
+      'gray-light': '#E8E8E8',
+      'off-white': '#faf9f6',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
