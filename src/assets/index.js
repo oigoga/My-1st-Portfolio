@@ -6,7 +6,8 @@ import Budgety from './Budgety.png';
 import Ecommerce from './Ecommerce.png';
 import Dicegame from './Dicegame.png';
 import Marriagecoaching from './Marriage_coaching.png';
-import Minitodo from './Mini-todo.png'
+import Todo from './Todo.png'
+import Reviewapp from './Reviewapp.png'
 
 
 export {
@@ -18,7 +19,8 @@ export {
     Ecommerce,
     Dicegame,
     Marriagecoaching,
-    Minitodo
+    Todo,
+    Reviewapp
 }
 
 

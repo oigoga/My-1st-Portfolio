@@ -1,5 +1,5 @@
 import React from "react";
-import { Budgety, Ecommerce, Minitodo, Marriagecoaching } from "../assets";
+import { Budgety, Ecommerce, Todo, Reviewapp } from "../assets";
 import { AiOutlineRight, AiTwotoneApi } from "react-icons/ai";
 import {
   DiGithubBadge,
@@ -24,41 +24,38 @@ const Works = () => {
             <div className="flex  flex-col items-center lg:flex-row my-3 ">
               <div className="w-full lg:w-2/5  bg-navyy    shadow-sm shadow-off-white my-2 mx-4 rounded-lg  h-88 ">
                 <div className="border-l-2 h-1/4 border-orange m-2 w-full">
-                  <h4 className="text-xl p-1 font-extrabold">Mini ToDo app</h4>
+                  <h4 className="text-xl p-1 font-extrabold">A ToDo app</h4>
                   <p className="text-gray p-1">
-                     A mini todo app for recording tasks
+                     A todo app that records your tasks in order of the due date
                   </p>
                 </div>
                 <img
-                  src={Minitodo}
-                  alt="A Mini To Do  web app"
+                  src={Todo}
+                  alt="A  To Do  web app"
                   className="w-full h-1/2"
                 />
                 <div className="flex  justify-between mt-1">
                   <div className=" ">
                     <ul className="flex md:flex-row flex-col p-2">
-                      <li className="flex justify-center  mx-1 my-1 text-sm p-0.5 w-6 bg-orange  rounded-md  text-center">
-                        <DiHtml5 />
-                      </li>
+                      
                       <li className="flex justify-center mx-1 my-1 p-0.5 w-6 bg-orange  rounded-md  text-center">
-                        <DiCss3 />
+                        <DiReact />
+                        
                       </li>
 
-                      <li className="flex justify-center mx-1 my-1 p-0.5 w-6 lg:w-10 bg-orange text-xs rounded-md  text-center">
-                        <DiJsBadge />
-                      </li>
+                      
                     </ul>
                   </div>
                   <div className="flex flex-col p-2">
                     <a
-                      href="https://github.com/oigoga/Mini-Todo"
+                      href="https://github.com/oigoga/react-todo"
                       className="flex bg-orange px-1 justify-between rounded-md text-center w-28 my-1"
                     >
                       View Code
                       <AiOutlineRight className="self-center" />
                     </a>
                     <a
-                      href="https://minitodooigoga.netlify.app/"
+                      href="https://oigoga-to-do-app.netlify.app/"
                       className="flex bg-orange px-1 justify-between rounded-md  w-28 my-1"
                     >
                       {" "}
@@ -165,39 +162,39 @@ const Works = () => {
               <div className="w-full lg:w-2/5 bg-navyy shadow-sm shadow-off-white my-2 mx-4 rounded-lg  h-88  ">
                 <div className="border-l-2 h-1/4 border-orange m-2 w-full">
                   <h4 className="text-xl p-1 font-extrabold">
-                    Marriage Coaching Webiste
+                   Review Application
                   </h4>
                   <p className="text-gray p-1">
-                    A mock marriage coaching website
+                    A review application that lets users drop their reviews
                   </p>
                 </div>
                 <img
-                  src={Marriagecoaching}
-                  alt="Dicegame web app"
+                  src={Reviewapp}
+                  alt="Reviewapp"
                   className="w-full h-1/2"
                 />
                 <div className="flex justify-between lg:mt-3">
                   <div className=" ">
                     <ul className="flex md:flex-row flex-col p-2">
                       <li className="flex justify-center  mx-1 my-1 text-sm p-0.5 w-6 bg-orange  rounded-md  text-center">
-                        <DiHtml5 />
+                        <DiJsBadge/>
                       </li>
 
                       <li className="flex justify-center mx-1 my-1 p-0.5 w-6 lg:w-10 bg-orange text-xs rounded-md  text-center">
-                        <SiTailwindcss />
+                        <DiReact />
                       </li>
                     </ul>
                   </div>
                   <div className="flex flex-col p-3">
                     <a
-                      href="https://github.com/oigoga/Marriage-Coaching-Website"
+                      href="https://github.com/oigoga/Review-App"
                       className="flex bg-orange px-1 justify-between rounded-md text-center w-28 my-1"
                     >
                       View Code
                       <AiOutlineRight className="self-center" />
                     </a>
                     <a
-                      href="https://oigoga.github.io/Marriage-Coaching-Website/"
+                      href="https://reviewapp-oigoga.netlify.app/"
                       className="flex bg-orange px-1 justify-between rounded-md  w-28 my-1"
                     >
                       {" "}
