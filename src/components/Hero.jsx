@@ -11,12 +11,9 @@ const Hero = () => {
         <h3 className="text-white text-3xl sm:text-4xl">I'm O'iGoga</h3>
 
         <p className="text-lg w-full md:w-2/3 uppercase my-4 text-justify ">
-          I am result-oriented Front-End Developer keen on creating user first,
-          high quality and modern web applications. 
-          <br />{" "}
-          As a very organized person,
-          I pay attention to little details when working on any project. I am
-          interested in working with and for ambitious and positive people.
+          Detailed and result-oriented Front-End Developer focused on
+          user-centric, high-quality web applications. Seeking opportunities
+          with ambitious, positive teams.
         </p>
 
         <button
